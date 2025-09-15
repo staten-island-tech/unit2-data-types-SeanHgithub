@@ -1,0 +1,37 @@
+#floats
+#bill = 31.56
+#Boolean or true/false
+
+""" x = True
+y = False """
+""" x = 10 """
+#== is evaluation
+""" if x == True:
+    print("x is 10")
+elif x > 10:
+    print("x is greater than 10")
+else:
+    print("x is less 10") """
+students = ["Sean", "Olivia", "Ayaan", "Youssef"]
+students.append("Mia")
+# print(students[0])
+""" for students in students:
+    print(student) """
+
+""" if "Olivia" in students:
+    print("She's kinda lame")
+else:
+    print("She's still lame but not in this class") """
+""" for student in students
+    if student == "Mia":
+        print("MIa is extraaaaa lame")
+    else
+        print("Mia not here:") """
+""" name = "A n d y"
+for letter in name:
+    print(letter) """
+#"teacher" = string
+#["Sean", "Olivia", "Ayaan", "Youssef"] = list
+#True or False = boolean
+""" name = "Andy"
+print(len(name)) """
