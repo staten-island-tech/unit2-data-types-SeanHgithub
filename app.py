@@ -27,9 +27,30 @@ elif temp == 68:
     print("perfect")
 else:
     print("cold") """
+""" values = [1,2,3,4,5,6,7,8,9,10]
 def odd_even(x):
     if x % 2 == 0:
         return("even")
     else:
         return ("odd")
-values = [1,2,3,4,5,6,7,8,9,10]
+print(values)
+for i in values:
+    print(i, odd_even(i)) """
+""" bill_value = input("How was the service?")
+if bill_value == "bad":
+    print("tip 0%")
+elif bill_value == "okay":
+    print("tip 15%")
+elif bill_value == "good":
+    print("tip 20%")
+elif bill_value == "great":
+    print("tip 25%") """
+
+find_factor = input("Enter a number")
+x = int
+input = int(x)
+if x % 2
+
+
+
+
