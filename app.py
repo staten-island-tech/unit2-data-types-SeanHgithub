@@ -46,11 +46,3 @@ elif bill_value == "good":
 elif bill_value == "great":
     print("tip 25%") """
 
-find_factor = input("Enter a number")
-x = int
-input = int(x)
-if x % 2
-
-
-
-
