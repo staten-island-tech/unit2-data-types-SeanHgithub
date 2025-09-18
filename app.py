@@ -50,16 +50,13 @@ elif bill_value == "great":
         if x % y == 0:
             print(f"{y} is a factor of {x}")
 factors(7) """
-values = []
+common_factors = []
 def gcf(x,y):
     for a in range(1, x+1):
-        if x % a == 0:
-            values.append(a)
-    for b in range(1, y+1):
-        if y % b == 0:
-            values.append(b)
-gcf(200,500)
-values.remove(200)
-values.remove(500)
-print(values)
+        if x % a == 0 and y % a == 0:
+            common_factors.append(a)
+gcf(6565,52030)
+print(max(common_factors))
+
+
 
