@@ -45,4 +45,21 @@ elif bill_value == "good":
     print("tip 20%")
 elif bill_value == "great":
     print("tip 25%") """
+""" def factors(x):
+    for y in range(1, x +1):
+        if x % y == 0:
+            print(f"{y} is a factor of {x}")
+factors(7) """
+values = []
+def gcf(x,y):
+    for a in range(1, x+1):
+        if x % a == 0:
+            values.append(a)
+    for b in range(1, y+1):
+        if y % b == 0:
+            values.append(b)
+gcf(200,500)
+values.remove(200)
+values.remove(500)
+print(values)
 
